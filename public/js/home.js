@@ -20,6 +20,8 @@ function generateRandomNumber(min, max) {
   $.post("/api/get", breakfast).then(function (data) {
  
   });
+  $("#postTitle").val(""); // Clear the input fields - CG added 25 Jan
+  $("#postURL").val(""); // 
  });
  
  $("#next-btn").on("click", function (event) {
