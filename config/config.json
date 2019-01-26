@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "dfh34td67885cB",
+    "password": "hellojello",
     "database": "foodapp",
     "host": "127.0.0.1",
     "port": 3306,

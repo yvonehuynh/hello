@@ -14,7 +14,7 @@ function generateRandomNumber(min, max) {
   event.preventDefault();
   var breakfast = {
     name: $("#postTitle").val().trim(),
-    url: $("#postURL").val()
+    url: $("#postURL").val().trim()
   };
  
   $.post("/api/get", breakfast).then(function (data) {

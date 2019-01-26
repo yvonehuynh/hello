@@ -19,7 +19,7 @@
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a id="title" class="animated headShake delay-1s" href="home.html">bootcamp breakfast finder</a>
+                <a id="title" class="animated headShake" href="home.html">bootcamp breakfast finder</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
             </div>
@@ -29,23 +29,31 @@
 
     <!-- CONTENT -->
     <div id="jumbo1" class="jumbotron">
-        <h1 class="text-center">bitch, you gonna eat dis:</h1>
-    </div>
-
-    <!-- INGREDIENT CHECK BOXES -->
-    <div id="recipeName" class="container jumbotron">
-
-    </div>
-    <div id="recipeURL" class="container jumbotron">
+        <h1 class="text-center animated tada delay-1s">bitch, you gonna eat dis</h1>
     </div>
 
     <div>
         <button id="next-btn" class="btn-primary">ew, no! give me something else</button>
     </div>
 
+    <!-- RECIPE INPUT -->
+    <div id="recipeDiv" class="container">
+        <div class="row">
+            <!--  col-md-4 col-lg-3 -->
+            <div class="col-sm-6">
+                <h2><span id="recipeName"></span></h2>
+            </div>
+            <div class="col-sm-6">
+                <span id="recipeURL"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
     <footer>
         <div class="wrapper">
-            <h6 class="footer-text">Copyright &copy; V0.1</h6>
+            <h6 class="footer-text">copyright &copy; v0.1</h6>
+            <img id="explicit" src="styles/images/explicit.png" alt="Explicit Content">
         </div>
     </footer>
 
