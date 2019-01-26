@@ -1,0 +1,108 @@
+.list-group-item {
+  line-height: 2.5;
+}
+
+#title {
+  float: left;
+  min-height: 55px;
+  padding: 15px 15px 5px;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 40px;
+  color: white;
+  font-weight: bolder;
+  animation-duration: 2.5s;
+}
+
+body {
+  height: 100%;
+  background-image: url('bacon-breakfast.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: black;
+  margin: auto;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Major Mono Display', monospace;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+div {
+  display: inline-block;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  border: 1%;
+  border-color: white; 
+}
+
+#jumbo1 {
+  font-family: 'Major Mono Display', monospace;
+  margin: 3%;
+  opacity: 0.75;
+}
+
+#jumbo2 {
+  font-family: 'Major Mono Display', monospace;
+  margin: 3%;
+  opacity: 0.75;
+}
+
+.row {
+  padding: 15px;
+}
+
+/* BUTTONS */
+
+#btn1, #btn2 {
+  font-family: 'Major Mono Display', monospace;
+  border-radius: 6px;
+  opacity: 0.7;
+  width: 100%;
+}
+
+#btn1:hover, #btn2:hover {
+  opacity: 1.0;
+  font-weight: bold;
+}
+
+#add-btn, #next-btn {
+  border-radius: 6px;
+  padding: 5%;
+  margin-left: 15%;
+  width:13rem;
+  font-family: 'Major Mono Display', monospace;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: lightgray;
+  clear: both;
+  width: 100%;
+  height: 40px;
+  /* padding-top: 20px; */
+  padding-bottom: 5px;
+  border-top: solid;
+  border-color: white;
+  border-width: 5px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+.footertext {
+  margin-bottom: 0;
+}
